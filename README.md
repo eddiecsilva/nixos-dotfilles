@@ -1,5 +1,5 @@
 <p align="center">
-<img width="800px" src="https://raw.githubusercontent.com/eddiecsilva/debian-post-install/project_nixos_thumb.png" align="center" alt="white" /><br><br>
+<img width="800px" src="https://github.com/eddiecsilva/nixos-dotfilles/blob/main/project_nixos_thumb.png" align="center" alt="white" /><br><br>
 
 <!-- (site para ícones: https://shields.io/ ) -->
  
