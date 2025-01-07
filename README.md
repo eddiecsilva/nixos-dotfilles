@@ -23,9 +23,9 @@ Estes são meus primeiros testes com o o arquivo de parametrização do NixOS, o
 A utilização primária deste setup é para criação de conteúdo em vídeo, editoração eletrônica e arte vetorial.
 
 Hardware utilizado
-- AMD Ryzen 5700x
-- Nvidia 3060ti Galax
-- Placa-Mãe MSI MPG B550 Gaming Plus	
+- Processador: AMD Ryzen 5700x
+- GPU: Nvidia 3060ti Galax
+- Placa-Mãe: MSI MPG B550 Gaming Plus	
 
 ---
 
@@ -40,23 +40,24 @@ Hardware utilizado
 * Serviço de atualização de pacotes no NixOS (sem boot automático).
 * Bluetooth.
 
-## Instalação dos programas* **Ferramentas gráficas:** Gimp, Inskcape, Shotcut.
+## Instalação dos programas*
+* **Ferramentas gráficas:** Gimp, Inskcape, Shotcut.
 * **Navegadores web:** Google Chrome, Microsoft Edge, Firefox e Chromium.
 * **Edição:** OBS Studio, Davinci Resolve Free, Onedrive, MPV, flameshot.
 * **Extras:** fastfetch, aria2, fish, btop, vim, git.
 * **Utilitários:** onlyoffice-desktopeditors, obsidian, video-trimmer, warpinator, bottles, gparted.
 * **KDE Apps:** kcalc, dragon, partitionmanager, plasma-browser-integration, kdeconnect-kde, kate.
 
-## Arquivos importantes
+## Receomendações
 Segundo a documentação oficial, toda a personalização deve ser feita no arquivo "configuration.nix", incluindo opções parâmetros de boot, serviços, pacotes instalados, usuários e particionamento. Personalizar o arquivo "hardware-configuration.nix" é possível, mas ele pode ser sobrescrito pelo sistema em algumas situações.
 
 * configuration.nix - definições do sistema e pacotes a serem instalados
 * hardware-configuration.nix - otimizações para processadores, partições e boot
 
 ## Sites úteis
-Site oficial do projeto NixOS - https://nixos.org/
-Ferramenta de busca de pacotes - https://search.nixos.org/packages
-Fórum oficial - https://discourse.nixos.org/
+Site oficial do projeto NixOS - [https://nixos.org/](https://nixos.org/)
+Ferramenta de busca de pacotes - [https://search.nixos.org/packages](https://nixos.org/)
+Fórum oficial - [https://discourse.nixos.org/](https://nixos.org/)
 
 ---
 
