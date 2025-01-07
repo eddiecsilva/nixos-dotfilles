@@ -10,33 +10,56 @@
 
 </p>
 
-# AVISO
+# AVISOS IMPORTANTES
 Ao usar este roteiro você assume que entende os riscos e assume total responsabilidade por suas ações. Todos os arquivos que fazem parte desse repositório são distribuídos livremente para serem adaptados. Porém, não há nenhuma garantia implícita ou explícita do seu funcionamento.
+
+- Quado for personalizar as configurações, utilize apenas espaços para ajustar os paragrafos.
+- Todos os comentarios em ingles vieram de exemplos retirados da documentacao oficial do NixOS.
+- Você pode personalizar o particionamento usando o arquivo hardware-configuration.nix. Porém, o método oficial da distro recomenda utilizar o arquivo configuration.nix para isso.
 
 ## Objetivos
 Estes são meus primeiros testes com o o arquivo de parametrização do NixOS, o objetivo é reproduzir um resultado similar ao meu setup do [FrankenDebian](https://github.com/eddiecsilva/debian-post-install), porém, utilizando o Nixos OS como base.
 
-A seleção de programas escolhidos neste roteiro, é a que utilizo em minha rotina de trabalho atual, então, remova ou adicione programas de acordo com sua necessidade.
+A utilização primária deste setup é para criação de conteúdo em vídeo, editoração eletrônica e arte vetorial.
 
-## Opções ativas no arquivo configuration.nix
+Hardware utilizado
+- AMD Ryzen 5700x
+- Nvidia 3060ti Galax
+- Placa-Mãe MSI MPG B550 Gaming Plus	
+
+---
+
+# Opções ativas no arquivo configuration.nix
 * Ativação dos pacotes não-livres.
-* Instalação drivers de vídeo proprietários Nvidia (estável).
-* Suporte a CUDA ativo.
-* Ambiente gráfico Plasma 6 (com apps mínimos).
-* Sessão Wayland por padrão.
+* Instalação drivers proprietários Nvidia (estável) + CUDA.
+* Ambiente gráfico Plasma 6 + Wayland (com apps mínimos).
 * Kernel padrão da distro.
-* Boot menos verboso
-* Modeset ativo por padrão
-* otimizações para processadores AMD
+* Boot menos verboso.
+* Modeset ativo por padrão.
+* Otimizações para processadores AMD.
+* Serviço de atualização de pacotes no NixOS (sem boot automático).
+* Bluetooth.
 
-## Instalação dos programas
-* Ferramentas gráficas: Gimp, Inskcape, Shotcut.
-* Navegadores web: Google Chrome, Microsoft Edge, Firefox e Chromium.
-* Edição: OBS Studio, Davinci Resolve Free, Onedrive, MPV, flameshot.
-* Extras: fastfetch, aria2, fish, btop, vim, git.
-* Utilitários: onlyoffice-desktopeditors, obsidian, video-trimmer, warpinator, bottles, gparted.
-* KDE Apps: kdePackages.kcalc, kdePackages.dragon, kdePackages.partitionmanager, plasma-browser-integration, kdePackages.kdeconnect-kde, kdePackages.kate.
+## Instalação dos programas* **Ferramentas gráficas:** Gimp, Inskcape, Shotcut.
+* **Navegadores web:** Google Chrome, Microsoft Edge, Firefox e Chromium.
+* **Edição:** OBS Studio, Davinci Resolve Free, Onedrive, MPV, flameshot.
+* **Extras:** fastfetch, aria2, fish, btop, vim, git.
+* **Utilitários:** onlyoffice-desktopeditors, obsidian, video-trimmer, warpinator, bottles, gparted.
+* **KDE Apps:** kcalc, dragon, partitionmanager, plasma-browser-integration, kdeconnect-kde, kate.
 
-## Atualizações futuras
+## Arquivos importantes
+Segundo a documentação oficial, toda a personalização deve ser feita no arquivo "configuration.nix", incluindo opções parâmetros de boot, serviços, pacotes instalados, usuários e particionamento. Personalizar o arquivo "hardware-configuration.nix" é possível, mas ele pode ser sobrescrito pelo sistema em algumas situações.
+
+* configuration.nix - definições do sistema e pacotes a serem instalados
+* hardware-configuration.nix - otimizações para processadores, partições e boot
+
+## Sites úteis
+Site oficial do projeto NixOS - https://nixos.org/
+Ferramenta de busca de pacotes - https://search.nixos.org/packages
+Fórum oficial - https://discourse.nixos.org/
+
+---
+
+## Atualizações futuras neste roteiro
 * Ativação do suporte a flatpaks.
-* Ajustes para jogos
+* Ajustes para jogos.
