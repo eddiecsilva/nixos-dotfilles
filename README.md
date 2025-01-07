@@ -16,6 +16,8 @@ Ao usar este roteiro você assume que entende os riscos e assume total responsab
 - Quado for personalizar as configurações, utilize apenas espaços para ajustar os paragrafos.
 - Todos os comentarios em ingles vieram de exemplos retirados da documentacao oficial do NixOS.
 - Você pode personalizar o particionamento usando o arquivo hardware-configuration.nix. Porém, o método oficial da distro recomenda utilizar o arquivo configuration.nix para isso.
+- Lembre-se de criar um **usuário** e sugiro deixar o **root ativo** com uma senha forte.
+- CUIDADO ao testar configurações, nem todas as mudanças podem ser ignoradas ao entrar em uma versão anterior.
 
 ## Objetivos
 Estes são meus primeiros testes com o o arquivo de parametrização do NixOS, o objetivo é reproduzir um resultado similar ao meu setup do [FrankenDebian](https://github.com/eddiecsilva/debian-post-install), porém, utilizando o Nixos OS como base.
@@ -55,9 +57,10 @@ Segundo a documentação oficial, toda a personalização deve ser feita no arqu
 * hardware-configuration.nix - otimizações para processadores, partições e boot
 
 ## Sites úteis
-Site oficial do projeto NixOS - [https://nixos.org/](https://nixos.org/)
-Ferramenta de busca de pacotes - [https://search.nixos.org/packages](https://nixos.org/)
-Fórum oficial - [https://discourse.nixos.org/](https://nixos.org/)
+- Site oficial do projeto NixOS - [https://nixos.org/](https://nixos.org/)
+- Ferramenta de busca de pacotes - [https://search.nixos.org/packages](https://nixos.org/)
+- Fórum oficial - [https://discourse.nixos.org/](https://nixos.org/)
+- [Fonte da arte do logo usada na capa](https://github.com/NixOS/nixos-artwork/issues/50)
 
 ---
 
