@@ -16,7 +16,7 @@ Ao usar este roteiro você assume que entende os riscos e assume total responsab
 ## Objetivos
 Estes são meus primeiros testes com o o arquivo de parametrização do NixOS, o objetivo é reproduzir um resultado similar ao meu setup do [FrankenDebian](https://github.com/eddiecsilva/debian-post-install), porém, utilizando o Nixos OS como base.
 
-A seleção de programas escolhidos neste roteiro, é a que utilizo em minha rotina de trabalho atual, então, remova ou adicione programas de acordo com sua necessidade. Haverão algumas configurações extras relacionadas com jogos e ajustes cosméticos, mas isso é um bônus. 😉
+A seleção de programas escolhidos neste roteiro, é a que utilizo em minha rotina de trabalho atual, então, remova ou adicione programas de acordo com sua necessidade.
 
 ## Opções ativas no arquivo configuration.nix
 * Ativação dos pacotes não-livres.
@@ -25,6 +25,9 @@ A seleção de programas escolhidos neste roteiro, é a que utilizo em minha rot
 * Ambiente gráfico Plasma 6 (com apps mínimos).
 * Sessão Wayland por padrão.
 * Kernel padrão da distro.
+* Boot menos verboso
+* Modeset ativo por padrão
+* otimizações para processadores AMD
 
 ## Instalação dos programas
 * Ferramentas gráficas: Gimp, Inskcape, Shotcut.
@@ -36,3 +39,4 @@ A seleção de programas escolhidos neste roteiro, é a que utilizo em minha rot
 
 ## Atualizações futuras
 * Ativação do suporte a flatpaks.
+* Ajustes para jogos
