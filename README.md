@@ -30,9 +30,6 @@ Hardware utilizado
 - Processador: AMD Ryzen 5700x
 - GPU: Nvidia 3060ti Galax
 - Placa-Mãe: MSI MPG B550 Gaming Plus	
-</br>
-
----
 
 </br>
 
@@ -49,7 +46,7 @@ Hardware utilizado
 
 </br>
 
-## Instalação dos programas*
+## Instalação dos programas
 * **Ferramentas gráficas:** Gimp, Inskcape, Shotcut.
 * **Navegadores web:** Google Chrome, Microsoft Edge, Firefox e Chromium.
 * **Edição:** OBS Studio, Davinci Resolve Free, Onedrive, MPV, flameshot.
@@ -74,7 +71,6 @@ Segundo a documentação oficial, toda a personalização deve ser feita no arqu
 - [Fonte da arte do logo usada na capa](https://github.com/NixOS/nixos-artwork/issues/50)
 
 </br>
-
 ---
 
 </br>
