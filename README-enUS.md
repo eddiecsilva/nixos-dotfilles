@@ -19,6 +19,8 @@ By using this script you assume that you understand the risks and take full resp
 - Remember to create a **user** and I suggest leaving **root** active with a strong password.
 - BE CAREFUL when testing configurations, not all changes can be ignored when going to a previous generation.
 
+</br>
+
 ## Objectives
 These are my first tests with the NixOS parameterization file, the objective is to reproduce a result similar to my [FrankenDebian](https://github.com/eddiecsilva/debian-post-install) setup, however, using Nixos OS as a base.
 
@@ -29,7 +31,7 @@ Hardware used
 - GPU: Nvidia 3060ti Galax
 - Motherboard: MSI MPG B550 Gaming Plus
 
----
+</br>
 
 # Active options in configuration.nix file
 * Activation of non-free packages.
@@ -42,6 +44,8 @@ Hardware used
 * Package update service on NixOS (without automatic boot).
 *Bluetooth.
 
+</br>
+
 ## Program installation*
 * **Graphic tools:** Gimp, Inskcape, Shotcut.
 * **Web browsers:** Google Chrome, Microsoft Edge, Firefox and Chromium.
@@ -50,11 +54,15 @@ Hardware used
 * **Utilities:** onlyoffice-desktopeditors, obsidian, video-trimmer, warpinator, bottles, gparted.
 * **KDE Apps:** kcalc, dragon, partitionmanager, plasma-browser-integration, kdeconnect-kde, kate.
 
+</br>
+
 ## Recommendations
 According to the official documentation, all customization must be done in the "configuration.nix" file, including options for boot parameters, services, installed packages, users and partitioning. Customizing the "hardware-configuration.nix" file is possible, but it may be overwritten by the system in some situations.
 
 * /etc/nixos/configuration.nix - system configurations and packages being installed
 * /etc/nixos/hardware-configuration.nix - optimizations for processors, partitions and boot
+
+</br>
 
 ## Useful websites
 - Official website of the NixOS project - [https://nixos.org/](https://nixos.org/)
@@ -62,8 +70,8 @@ According to the official documentation, all customization must be done in the "
 - Official Forum - [https://discourse.nixos.org/](https://nixos.org/)
 - [Source of the logo art used on the cover](https://github.com/NixOS/nixos-artwork/issues/50)
 
----
+</br>
 
-## Future updates to this roadmap
+# Future updates to this roadmap
 * Enabled flatpak support.
 * Adjustments for games.
