@@ -31,8 +31,11 @@ Hardware utilizado
 - GPU: Nvidia 3060ti Galax
 - Placa-Mãe: MSI MPG B550 Gaming Plus	
 </br>
+
 ---
+
 </br>
+
 # Opções ativas no arquivo configuration.nix
 * Ativação dos pacotes não-livres.
 * Instalação drivers proprietários Nvidia (estável) + CUDA.
@@ -44,6 +47,8 @@ Hardware utilizado
 * Serviço de atualização de pacotes no NixOS (sem boot automático).
 * Bluetooth.
 
+</br>
+
 ## Instalação dos programas*
 * **Ferramentas gráficas:** Gimp, Inskcape, Shotcut.
 * **Navegadores web:** Google Chrome, Microsoft Edge, Firefox e Chromium.
@@ -52,11 +57,15 @@ Hardware utilizado
 * **Utilitários:** onlyoffice-desktopeditors, obsidian, video-trimmer, warpinator, bottles, gparted.
 * **KDE Apps:** kcalc, dragon, partitionmanager, plasma-browser-integration, kdeconnect-kde, kate.
 
-## Receomendações
+</br>
+
+## Recomendações
 Segundo a documentação oficial, toda a personalização deve ser feita no arquivo "configuration.nix", incluindo opções parâmetros de boot, serviços, pacotes instalados, usuários e particionamento. Personalizar o arquivo "hardware-configuration.nix" é possível, mas ele pode ser sobrescrito pelo sistema em algumas situações.
 
 * /etc/nixos/configuration.nix - definições do sistema e pacotes a serem instalados
 * /etc/nixos/hardware-configuration.nix - otimizações para processadores, partições e boot
+
+</br>
 
 ## Sites úteis
 - Site oficial do projeto NixOS - [https://nixos.org/](https://nixos.org/)
@@ -64,7 +73,11 @@ Segundo a documentação oficial, toda a personalização deve ser feita no arqu
 - Fórum oficial - [https://discourse.nixos.org/](https://nixos.org/)
 - [Fonte da arte do logo usada na capa](https://github.com/NixOS/nixos-artwork/issues/50)
 
+</br>
+
 ---
+
+</br>
 
 ## Atualizações futuras neste roteiro
 * Ativação do suporte a flatpaks.
